@@ -23,6 +23,10 @@ While the script is simple enough, working with graphics is not. For that reason
 Before using it, make sure that you have it installed either by using pip, or manually installing it into your Python Environment.
 Needless to say, it being a Python 3 script, it requires a Python 3 interpreter.
 
+You can install it by following the instructions here:
+https://pypi.org/project/pillow/
+
+
 ## Job files
 
 Creation jobs are provided using simple JSON files consisting of groups of commands to build an image one design element at a time.
