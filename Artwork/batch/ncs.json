@@ -1,0 +1,168 @@
+{
+	"job": [{
+		"poster" : {
+			"csvfile" : "C:\\ArtGen\\Artwork\\batches\\ncs.csv",
+			"fnexp"	  : "posterfile",
+			"commands": [{
+				"boverlay": {
+					"order" : 1,
+					"image" : "posterback",
+					"pos" : [0,0],
+					"zoom": 1
+				}},{
+				"overlay" : {
+					"order" : 2,
+					"image" : "C:\\ArtGen\\Artwork\\Template\\Poster\\Design Elements\\Checkered.png",
+					"pos" : [0,670]
+				}},{
+				"overlay" : {
+					"order" : 3,
+					"image" : "C:\\ArtGen\\Artwork\\Template\\Poster\\Design Elements\\Design.png",
+					"pos" : [0,0]
+				}},{
+				"overlay" : {
+					"order" : 4,
+					"image" : "C:\\ArtGen\\Artwork\\Template\\Poster\\Series Logo\\nascar.png",
+					"pos" : [12,790]
+				}},{
+				"overlay" : {
+					"order" : 5,
+					"image" : "C:\\ArtGen\\Artwork\\Template\\Poster\\Series Logo\\cupseries.png",
+					"pos" : [464,768]
+				}},{
+				"overlay" : {
+					"order" : 6,
+					"image" : "C:\\ArtGen\\Artwork\\Template\\Poster\\Series Logo\\ford.png",
+					"pos" : [46,904]
+				}},{
+				"overlay" : {
+					"order" : 7,
+					"image" : "C:\\ArtGen\\Artwork\\Template\\Poster\\Series Logo\\chevy.png",
+					"pos" : [264,904]
+				}},{
+				"overlay" : {
+					"order" : 8,
+					"image" : "C:\\ArtGen\\Artwork\\Template\\Poster\\Series Logo\\toyota.png",
+					"pos" : [482,904]
+				}},{
+				"boverlay": {
+					"order" : 9,
+					"image" : "squarelogo",
+					"pos" : [25,25],
+					"zoom" : 0.60
+				}}
+			]
+		}
+	},{
+		"thumb" : {
+			"csvfile" : "C:\\ArtGen\\Artwork\\batches\\ncs.csv",
+			"fnexp"	  : "thumbfile",
+			"commands": [{
+				"boverlay": {
+					"order" : 1,
+					"image" : "thumbback",
+					"pos" : [0,0]
+				}},{
+				"overlay" : {
+					"order" : 2,
+					"image" : "C:\\ArtGen\\Artwork\\Template\\Thumbnail\\Design Elements\\Design.png",
+					"pos" : [0,0]
+				}},{
+				"overlay" : {
+					"order" : 3,
+					"image" : "C:\\ArtGen\\Artwork\\Template\\Thumbnail\\Series Logo\\cup.png",
+					"pos" : [53,55]
+				}},{
+				"btext"	  : {
+					"order" : 11,
+					"text"	: "race",
+					"font"  : "C:\\ArtGen\\Artwork\\Template\\Fonts\\eurostile.ttf",
+					"size"  : 50,
+					"just"  : "right",
+					"pos"   : [1215, 660],
+					"rot"	: 0,
+					"stroke": 3,
+					"color"	: [0,0,0],
+					"fill"  : [255,255,255],
+					"drop"	: "False",
+					"dcol"	: [0,0,0]
+				}}
+			]
+		}
+	},{
+		"square" : {
+			"csvfile" : "C:\\ArtGen\\Artwork\\batches\\ncs.csv",
+			"fnexp"	  : "squarefile",
+			"commands": [{
+				"overlay": {
+					"order" : 1,
+					"image" : "C:\\ArtGen\\Artwork\\Template\\Square\\Backgrounds\\background.png",
+					"pos" : [0,0]
+				}},{
+				"overlay": {
+					"order" : 2,
+					"image" : "C:\\ArtGen\\Artwork\\Template\\Square\\Design Elements\\shader.png",
+					"pos" : [0,0]
+				}},{
+				"overlay" : {
+					"order" : 3,
+					"image" : "C:\\ArtGen\\Artwork\\Template\\Square\\Design Elements\\frame.png",
+					"pos" : [0,0]
+				}},{
+				"overlay" : {
+					"order" : 4,
+					"image" : "C:\\ArtGen\\Artwork\\Template\\Template\\Square\\Series Logos\\nascar.png",
+					"pos" : [0,0]
+				}},{
+				"boverlay" : {
+					"order" : 5,
+					"image" : "squarelogo",
+					"pos" : [150,150]
+				}},{
+				"btext"	  : {
+					"order" : 6,
+					"text"	: "track",
+					"font"  : "C:\\ArtGen\\Artwork\\Template\\Fonts\\SF Sports Night.ttf",
+					"size"  : 50,
+					"just"  : "center",
+					"pos"   : [350, 50],
+					"rot"	: 0,
+					"stroke": 0,
+					"color"	: [0,0,0],
+					"fill"  : [255,255,255],
+					"drop"	: "False",
+					"dcol"	: [0,0,0]
+				}}
+			]
+		}
+	},{
+		"banner" : {
+			"csvfile" : "C:\\ArtGen\\Artwork\\batches\\ncs.csv",
+			"fnexp"	  : "bannerfile",
+			"commands": [{
+				"overlay": {
+					"order" : 1,
+					"image" : "C:\\ArtGen\\Artwork\\Template\\Banner\\Design Elements\\background.png",
+					"pos" : [0,0]
+				}},{
+				"overlay": {
+					"order" : 2,
+					"image" : "C:\\ArtGen\\Artwork\\Template\\Banner\\Series Logo\\cupseries.png",
+					"pos" : [100,50]
+				}},{
+				"boverlay" : {
+					"order" : 3,
+					"image" : "tracklogo",
+					"pos" : [340,17]
+				}},{
+				"boverlay" : {
+					"order" : 4,
+					"image" : "squarelogo",
+					"pos"   : [750,10],
+					"zoom"  : 0.40
+				}}
+			]
+		}
+	}
+	]
+}
