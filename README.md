@@ -42,12 +42,14 @@ This command simply takes an image file (I recommend using PNG because it's loss
 
 It looks like this:
 ```
+{"overlay": 
     {
         "order" : "1",                        <- The order of the command (to stack the layers correctly, first come first serve if equal)
         "image" : "path/to/filename.ext",     <- The path to the layer image, or the name of the image column in the csv for BOverlay
         "pos" : [0,0]                         <- The [x,y] coordinates of the top left pixel in the resulting image.
         "zoom": 1.0                           <- The Zoom factor of the image. default 1.0. 0.5 = half size, 2.0 double size.
     }
+}
 ```
 That's all. There may be a rotation option added, but I haven't found a need for it at this time. It's not that difficult to do, but it requires a
 bit of a rethink of how the layers are manipulated. If any part of the image is outside of the canvas before rotation, it is cut off and won't be visible.
@@ -60,7 +62,8 @@ This command is a little more complicated. Still pretty simple though. It writes
 
 It has quite a few more parameters:
 ```
-    {
+{"text":
+   {
         "order"   : "3",                        <- The order of the command (to stack the layers correctly, first come first server if equal)    
         "font"    : "path/to/ttf/file.ttf",     <- The path to the font file.
         "text"    : "text to add",              <- The text to add, or the name of the column containing the text if BText.
@@ -74,6 +77,7 @@ It has quite a few more parameters:
         "drop"    : "true",                     <- Should the text contain a drop shadow?
         "dcol"    : [0,0,0],                    <- Color of the drop shadow. Black (0,0,0) is the default.
     }
+}
 ```
 Some things may be altered. As of now you can only set the actual text to write in the batch file. Every other parameter is fixed. This includes
 the font size. This means that in some cases, some trial and error is required to see what text size fits the image. I might add size to the csv
