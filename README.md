@@ -30,7 +30,7 @@ https://pypi.org/project/pillow/
 ## Job files
 
 Creation jobs are provided using simple JSON files consisting of groups of commands to build an image one design element at a time.
-There are basically two commands; Overlay and Text. Which each has a direct function and a batch function (Overlay vs BOverlay and Text vs BText)
+There are basically two commands; Overlay and Text. With each having a direct function and a batch function (Overlay vs BOverlay and Text vs BText)
 The difference between the two is that the direct function has a filename as its data source, and the batch function has a column name
 as its data source. 
 
