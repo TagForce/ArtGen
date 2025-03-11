@@ -147,7 +147,7 @@ def add_overlay(art, img, pos, zoom):
         return art
     # print("Adding image {0} to artwork at position ({1}, {2})".format(img, pos[0], pos[1]))
     result = art
-    ol = Image.open(img)
+    ol = Image.open(img).convert("RGBA")
     if zoom != 1.0:
         ol = ol.resize([int(ol.width * zoom), int(ol.height * zoom)], resample=Image.Resampling.LANCZOS)
     result.paste(ol, pos.copy(), ol)
